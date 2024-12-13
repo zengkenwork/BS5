@@ -27,15 +27,72 @@
 <body>
     <div>
         <div class="m-3">
-            
-
-            <div class="container">
+            <nav class="navbar navbar-expand-sm navbar-light bg-light fixed-top">
+                <div class="container-fluid">
+                  <a class="navbar-brand" href="#">好穿網</a>
+                  <button
+                    class="navbar-toggler"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent"
+                    aria-controls="navbarSupportedContent"
+                    aria-expanded="false"
+                    aria-label="Toggle navigation"
+                  >
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                      <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#">Link</a>
+                      </li>
+                      <li class="nav-item dropdown">
+                        <a
+                          class="nav-link dropdown-toggle"
+                          href="#"
+                          id="navbarDropdown"
+                          role="button"
+                          data-bs-toggle="dropdown"
+                          aria-expanded="false"
+                        >
+                          Dropdown
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                          <li><a class="dropdown-item" href="#">Action</a></li>
+                          <li><a class="dropdown-item" href="#">Another action</a></li>
+                          <li><hr class="dropdown-divider" /></li>
+                          <li>
+                            <a class="dropdown-item" href="#">Something else here</a>
+                          </li>
+                        </ul>
+                      </li>
+                      <li class="nav-item">
+                        <a
+                          class="nav-link disabled"
+                          href="#"
+                          tabindex="-1"
+                          aria-disabled="true"
+                          >Disabled</a
+                        >
+                      </li>
+                    </ul>
+                    <form class="d-flex gap-2">
+                      <a href="#" class="btn btn-outline-primary px-3">登入</a>
+                      <a href="#" class="btn btn-primary px-3">註冊</a>
+                    </form>
+                  </div>
+                </div>
+              </nav>
+            <div class="container" style="margin-top: 60px;">
                 <div class="row">
-                    <h1 class="fw-bolder">鞋類商品
+                    <h1 class="fw-bolder mt-2">鞋類商品
                         <small class="fw-normal fst-italic">Lorem ipsum dolor sit amet.</small>
                     </h1>
                     
-                    <div class="alert alert-success mt-3">
+                    <div class="alert alert-success">
                         <strong>已加入購物車! </strong>
                         此商品已加入您的購物車, 您可以繼續購物.
                     </div>
@@ -140,5 +197,6 @@
             </div>
         </div>
     </div>
+    <script src="/Script/bootstrap.bundle.js"></script>
 </body>
 </html>
