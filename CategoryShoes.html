@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="/Content/bootstrap.css" />
+    <style>
+      .card {
+        border: none;
+      }
+      .otherProduct {
+        max-width: 120px;
+        object-fit: cover;
+      }
+      .otherProducts h6 {
+        font-weight: 700;
+        color: #333;
+        margin-bottom: 20px;
+        font-size: 1.4rem;
+      }
+    </style>
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-sm navbar-light bg-light fixed-top">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">好穿網</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Link</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                id="navbarDropdown"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                Dropdown
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li><a class="dropdown-item" href="#">Action</a></li>
+                <li><a class="dropdown-item" href="#">Another action</a></li>
+                <li><hr class="dropdown-divider" /></li>
+                <li>
+                  <a class="dropdown-item" href="#">Something else here</a>
+                </li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a
+                class="nav-link disabled"
+                href="#"
+                tabindex="-1"
+                aria-disabled="true"
+                >Disabled</a
+              >
+            </li>
+          </ul>
+          <form class="d-flex gap-2">
+            <a href="#" class="btn btn-outline-primary px-3">登入</a>
+            <a href="#" class="btn btn-primary px-3">註冊</a>
+          </form>
+        </div>
+      </div>
+    </nav>
+    <!--導覽列-->
+    <div class="container">
+      <nav aria-label="breadcrumb" style="margin-top: 70px">
+        <ol class="breadcrumb">
+          <li class="breadcrumb-item"><a href="#">首頁</a></li>
+          <li class="breadcrumb-item"><a href="#">商品分類</a></li>
+          <li class="breadcrumb-item active" aria-current="page">帽子</li>
+        </ol>
+      </nav>
+    </div>
+    <!--麵包屑-->
+    <div class="container">
+      <h3 class="fw-bolder">熱銷商品</h3>
+      <div class="row">
+        <div class="card" style="width: 18rem">
+          <img
+            src="/images/yang-deng-2loKxdi6Hmo-unsplash.jpg"
+            class="card-img-top"
+            alt="..."
+          />
+          <div class="card-body">
+            <h5 class="card-title">Card title</h5>
+            <p class="card-text">
+              Some quick example text to build on the card title and make up the
+              bulk of the card's content.
+            </p>
+            <a href="#" class="btn btn-primary">Go somewhere</a>
+          </div>
+        </div>
+        <div class="card" style="width: 18rem">
+          <img
+            src="/images/yang-deng-2loKxdi6Hmo-unsplash.jpg"
+            class="card-img-top"
+            alt="..."
+          />
+          <div class="card-body">
+            <h5 class="card-title">Card title</h5>
+            <p class="card-text">
+              Some quick example text to build on the card title and make up the
+              bulk of the card's content.
+            </p>
+            <a href="#" class="btn btn-primary">Go somewhere</a>
+          </div>
+        </div>
+        <div class="card" style="width: 18rem">
+          <img
+            src="/images/yang-deng-2loKxdi6Hmo-unsplash.jpg"
+            class="card-img-top"
+            alt="..."
+          />
+          <div class="card-body">
+            <h5 class="card-title">Card title</h5>
+            <p class="card-text">
+              Some quick example text to build on the card title and make up the
+              bulk of the card's content.
+            </p>
+            <a href="#" class="btn btn-primary">Go somewhere</a>
+          </div>
+        </div>
+        <div class="card" style="width: 18rem">
+          <img
+            src="/images/yang-deng-2loKxdi6Hmo-unsplash.jpg"
+            class="card-img-top"
+            alt="..."
+          />
+          <div class="card-body">
+            <h5 class="card-title">Card title</h5>
+            <p class="card-text">
+              Some quick example text to build on the card title and make up the
+              bulk of the card's content.
+            </p>
+            <a href="#" class="btn btn-primary">Go somewhere</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--卡片-->
+    <div class="container">
+      <div class="row">
+        <h3 class="mt-3 fw-bolder">更多商品</h3>
+        <table class="table otherProducts">
+          <tr>
+            <td>
+              <img
+                src="images/reza-delkhosh-NTrI8tjgKo8-unsplash.jpg"
+                class="img-fluid rounded otherProduct"
+              />
+            </td>
+            <td width="90%">
+              <h6>商品名稱</h6>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cum,
+                natus.
+              </p>
+              <p>
+                NT$ 2,300
+                <a href="#" class="btn btn-primary ms-3">加入購物車</a>
+              </p>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <img
+                src="images/ali-karimiboroujeni-mXwZGUJABVI-unsplash.jpg"
+                class="img-fluid rounded otherProduct"
+              />
+            </td>
+            <td width="90%">
+              <h6>商品名稱</h6>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cum,
+                natus.
+              </p>
+              <p>
+                NT$ 4,500
+                <a href="#" class="btn btn-primary ms-3">加入購物車</a>
+              </p>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <img
+                src="images/taras-chernus-iIjResyhhW0-unsplash.jpg"
+                class="img-fluid rounded otherProduct"
+              />
+            </td>
+            <td width="90%">
+              <h6>商品名稱</h6>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cum,
+                natus.
+              </p>
+              <p>
+                NT$ 5,100
+                <a href="#" class="btn btn-primary ms-3">加入購物車</a>
+              </p>
+            </td>
+          </tr>
+        </table>
+        <nav aria-label="Page navigation example">
+          <ul class="pagination justify-content-start">
+            <li class="page-item disabled">
+              <a class="page-link" href="#" tabindex="-1" aria-disabled="true"
+                >Previous</a
+              >
+            </li>
+            <li class="page-item"><a class="page-link" href="#">1</a></li>
+            <li class="page-item"><a class="page-link" href="#">2</a></li>
+            <li class="page-item"><a class="page-link" href="#">3</a></li>
+            <li class="page-item">
+              <a class="page-link" href="#">Next</a>
+            </li>
+          </ul>
+        </nav>
+        <!--分頁列-->
+      </div>
+    </div>
+    <!--table-->
+    <script src="/Script/bootstrap.bundle.js"></script>
+  </body>
+</html>
