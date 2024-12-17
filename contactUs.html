@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="/Content/bootstrap.css" />
+    <style>
+      .jumbotron {
+        margin-top: 70px;
+        background-image: url("/images/berkeley-communications-WEDDt-u3q3o-unsplash.jpg");
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        height: 400px;
+      }
+    </style>
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-sm navbar-light bg-light fixed-top">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">好穿網</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Link</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                id="navbarDropdown"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                Dropdown
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li><a class="dropdown-item" href="#">Action</a></li>
+                <li><a class="dropdown-item" href="#">Another action</a></li>
+                <li><hr class="dropdown-divider" /></li>
+                <li>
+                  <a class="dropdown-item" href="#">Something else here</a>
+                </li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a
+                class="nav-link disabled"
+                href="#"
+                tabindex="-1"
+                aria-disabled="true"
+                >Disabled</a
+              >
+            </li>
+          </ul>
+          <form class="d-flex gap-2">
+            <a href="#" class="btn btn-outline-primary px-3">登入</a>
+            <a href="#" class="btn btn-primary px-3">註冊</a>
+          </form>
+        </div>
+      </div>
+    </nav>
+    <!--導覽列-->
+    <div class="container-fluid jumbotron"></div>
+    <!--頁面大圖-->
+    <div class="container">
+      <div class="row">
+        <div class="col-md-8 mt-4 order-1 order-sm-0">
+          <form action="" class="row">
+            <div class="col-md-6">
+              <label for="" class="form-label">Name</label>
+              <input type="text" class="form-control form-control-sm" />
+            </div>
+            <div class="col-md-6">
+              <label for="" class="form-label">Mobile</label>
+              <input type="text" class="form-control form-control-sm" />
+            </div>
+            <div class="col-md-12 mt-3">
+              <label for="" class="form-label">Email</label>
+              <input type="text" class="form-control form-control-sm" />
+            </div>
+            <div class="col-md-12 mt-3">
+              <label for="" class="form-label">Message</label>
+              <textarea class="form-control form-control-sm"></textarea>
+            </div>
+            <div class="col-md-12 mt-3 text-end">
+              <button class="btn btn-success btn-sm">Send</button>
+            </div>
+          </form>
+        </div>
+        <div class="col-md-4 order-0 ordeer-sm-1">
+          <p class="m-4">
+            地址 : Lorem ipsum dolor sit amet consectetur adipisicing.
+          </p>
+          <p class="m-4">電話 : 02-12345678</p>
+          <p class="m-4">傳真 : 02-12345678</p>
+          <p class="m-4">電子郵件 : service@gmail.com</p>
+        </div>
+      </div>
+    </div>
+    <!--聯絡資訊與聯絡表單-->
+    <script src="/Script/bootstrap.bundle.js"></script>
+  </body>
+</html>
